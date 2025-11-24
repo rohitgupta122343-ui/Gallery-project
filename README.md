@@ -1,15 +1,40 @@
-# Gallery Project
+# 📸 React Image Gallery (Picsum API)
 
-A simple and responsive image gallery built using HTML, CSS, and JavaScript.
+A simple, responsive image gallery built using **React**, **Axios**, and the **Picsum Photos API**.  
+The app supports **pagination**, allowing users to browse different pages of images.
 
-## Features
-- Responsive layout
-- Image animations
-- Clean UI
-- Lightweight and fast
-- Works on all devices
+---
 
-## How to Use
-1. Download or clone the repository:
-   ```bash
-   git clone https://github.com/rohitgupta122343-ui/Gallery-project
+## 🚀 Features
+
+- Fetches images from the **Picsum Photos API**
+- Displays images in a clean gallery layout
+- Fully responsive UI (TailwindCSS used)
+- Pagination with **Next** and **Previous** buttons
+- Reusable `Cart` component for each image
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ └── Cart.jsx
+├── App.jsx
+└── index.js
+
+## 🛠️ Technologies Used
+
+- **React.js** (Hooks: useState, useEffect)
+- **Axios** for API calls
+- **Picsum API** (`https://picsum.photos/v2/list`)
+- **TailwindCSS** for styling
+
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/gallery-project.git
+cd gallery-project
